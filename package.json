@@ -1,0 +1,36 @@
+{
+	"name": "@jason.gu/create-custom-react-app",
+	"version": "0.0.1",
+	"description": "a tool to init react app",
+	"keywords": [
+		"create-react-app",
+		"react",
+		"redux"
+	],
+	"author": "Jason Gu",
+	"license": "MIT",
+	"bin": {
+		"create-custom-react-apps": "bin/create-custom-react-app.js"
+	},
+	"config": {
+		"commitizen": {
+			"path": "cz-conventional-changelog"
+		}
+	},
+	"scripts": {
+		"lint": "eslint ."
+	},
+	"dependencies": {
+		"glob": "^7.1.4",
+		"lodash": "^4.17.15",
+		"mustache": "^3.1.0",
+		"prompts": "^2.2.1",
+		"rimraf": "^3.0.0"
+	},
+	"devDependencies": {
+		"babel-eslint": "^10.0.3",
+		"commitizen": "^4.0.3",
+		"cz-conventional-changelog": "^3.0.2",
+		"eslint": "^6.6.0"
+	}
+}
